@@ -1,0 +1,8 @@
+.bit_pix{
+  display: inline-block;
+  /*border: 1px solid lightgray;*/
+  width:5px;
+  height:5px;
+  background-color: lightgray;
+}
+
