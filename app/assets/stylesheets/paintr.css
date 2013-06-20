@@ -1,7 +1,45 @@
-#canvas
-{
+#canvas{
   margin-top: 25px;
   width: 800px;
   height: 600px;
   border: 3px double black;
+}
+
+
+.swatch{
+  height: 40px;
+  width:40px;
+  border:1px dashed black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 10px 10px 10px 0px;
+  display:inline-block;
+}
+
+.image-swatch{
+  height:100px;
+  width:100px;
+  border:1px dashed black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 10px 10px 10px 0px;
+  display:inline-block;
+}
+
+.paint-dot{
+  width:20px;
+  height:20px;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+#color-controls{
+  margin:1px;
+}
+#image-input-controls{
+  margin:1px;
 }
